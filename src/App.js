@@ -8,13 +8,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          R3POST
+          r3post
         </header>
         
         <Main />
         
         <footer className="App-footer">
-          Copyright Josh Serbus 2019
+          &#169; Josh Serbus, 2019
         </footer>
       </div>
     );

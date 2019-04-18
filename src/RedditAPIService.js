@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 
-class RedditAPIAccess extends component {
+class RedditAPIService extends component {
 
 }
 
-export default RedditAPIAccess;
+export default RedditAPIService;
