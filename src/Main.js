@@ -10,7 +10,8 @@ class Main extends Component {
 	}
 
 	componentDidMount() {
-		debugger;
+		// load API token
+		
 	}
 
 	render() {
