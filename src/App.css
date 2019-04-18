@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  height: 100vh;
 }
 
 .App-logo {
@@ -10,12 +12,30 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-main {
+  min-height: 84vh;
+  max-height: 84vh;
+  height: 90%;
+  color: black;
+  background-color: lightgray;
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px);
   color: white;
 }
 
@@ -31,3 +51,67 @@
     transform: rotate(360deg);
   }
 }
+
+/************************** APP_MAIN CSS **************************/
+.App-main {
+  min-height: 86vh;
+  max-height: 86vh;
+  height: 95%;
+  width: 100vw;
+  color: black;
+  background-color: lightgray;
+}
+
+.App-main-left {
+  height: 100%;
+  width: 35%;
+  display: inline-flex;
+  float: left;
+
+
+
+}
+
+.App-main-left-post-container {
+  width: 98%;
+  height: 98%;
+  display: inline-flex;
+  border: 1px solid black;
+
+  margin: auto;
+}
+
+.App-main-left-post-container p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  color: black;
+}
+
+.App-main-right {
+  height: 100%;
+  width: 65%;
+  display: inline-flex;
+  float: right;
+
+}
+
+.App-main-right-preview-container {
+  width: 98%;
+  height: 98%;
+  display: inline-flex;
+
+  border: 1px solid black;
+
+  margin: auto;
+}
+
+.App-main-right-preview-container p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  color: black;
+}
+
+
+

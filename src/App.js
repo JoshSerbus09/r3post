@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Main from './Main.js';
 
 class App extends Component {
   render() {
@@ -10,11 +11,9 @@ class App extends Component {
           R3POST
         </header>
         
-        <body>
-          <Main />
-        </body>
+        <Main />
         
-        <footer>
+        <footer className="App-footer">
           Copyright Josh Serbus 2019
         </footer>
       </div>
